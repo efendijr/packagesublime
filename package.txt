@@ -1,0 +1,14 @@
+advance new file 
+all auto complete
+code complice
+doc block
+emmet
+laravel blade highlight
+php companian
+phpcs
+sidebarenhancement
+snippetmaker
+sublimelinter
+sublimelinter-php
+sublimelinter-php
+

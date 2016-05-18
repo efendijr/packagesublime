@@ -3,8 +3,29 @@ all auto complete
 code complice
 doc block
 emmet
+laravel 5 snippet
 laravel blade highlight
+laravel helper completions
 php companian
+- find_use (F10) - When your cursor is over a class name, this command makes it simple to use (import) that class. 
+- expand_fqcn (F9) - Same as find_use but instead of expanding the class in the import block, it expands its FQCN inline. 
+- import_namespace (F8) - Adds the namespace for the current file based on the file's path.
+- goto_definition_scope (shift+F12) - Same as Sublime Text's native goto_definition (described below), but scoped in a PHP-aware manner.
+cmd-click for function definition
+- Create Default (Linux).sublime-mousemap in ~/.config/sublime-text-3/Packages/User
+- paste this
+    [
+    {
+        "button": "button1", 
+        "count": 1, 
+        "modifiers": ["ctrl"],
+        "press_command": "drag_select",
+        "command": "goto_definition"
+    }
+]
+- click helper
+
+create snippet
 phpcs
 sidebarenhancement
 snippetmaker
